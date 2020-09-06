@@ -1,7 +1,8 @@
 ## Task 0
 Choose the patterns you are going to use for this project, and argument which are the benefits but also the cons.
 
-    - we have many providers so that the order object differ from provider to another, in this case we use factory design pattern to create the order object based on provider
+    - we have many providers so that the order object differ from provider to another, in this case we use factory design
+      pattern to create the order object based on provider
 
 
 ## Task 1
@@ -37,8 +38,9 @@ Keep in mind that the volume of incoming webhooks might be very high or very low
 How are you going to handle failures? 
 
     - as we'll get many requests we can't handle it immediately, we'll push them to queue and process them later
-        or we can use message broker and send the service that handle orders
-    - for handling failure :  i think we'll need to push failed requests to a queue and handle them after certain time without blocking the queue,
+      or we can use message broker and send the service that handle orders
+    - for handling failure :  i think we'll need to push failed requests to a queue and handle them after 
+      certain time without blocking the queue,
 
 
 ## Task 3
